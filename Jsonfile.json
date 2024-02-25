@@ -1,0 +1,23 @@
+[
+    {
+    "name" : "supun",
+    "age" : 18,
+    "Country" : "sri Lanka",
+    "hobbies" : ["reading","writing", "coading"],
+    "isCoder": true
+    },  
+    {
+        "name" : "supun",
+        "age" : 18,
+        "Country" : "sri Lanka",
+        "hobbies" : ["reading","writing", "coading"],
+        "isCoder": true
+    }, 
+    {
+        "name" : "supun",
+        "age" : 18,
+        "Country" : "sri Lanka",
+        "hobbies" : ["reading","writing", "coading"],
+        "isCoder": true
+    }
+]
