@@ -1,4 +1,4 @@
-getProducts =(resourceURL, callback) =>{
+/*getProducts =(resourceURL, callback) =>{
 
     const request = new XMLHttpRequest();
 
@@ -31,8 +31,24 @@ const nowGetSometing = () =>{
 }
 
 nowGetSometing().then((data)=>{
-    console.log("what our promise return:", data)
+    //console.log("what our promise return:", data)
 }).catch((error)=>{
-    console.log(error)
-})
+    //console.log(error)
+})*/
 
+
+
+
+
+const gateFakeStoreProducts = async () => {
+    try {
+        const response = await fetch('https://fakestoreapi.com/product');
+        const data = await response.json();
+        console.log(data);
+    }
+    catch (error){
+        console.log(error)
+    }
+}
+
+gateFakeStoreProducts()
